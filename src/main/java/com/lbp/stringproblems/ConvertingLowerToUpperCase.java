@@ -14,11 +14,11 @@ public static void main(String[] args) {
 	for(int i=0;i<word.length();i++) {
 		if(word.charAt(i)>='A' && word.charAt(i)<='Z') {
 			finalString =finalString+(char)(word.charAt(i)+32);
-		//	System.out.print((char)(word.charAt(i)+32));
+		
 		}
 		else {
 			finalString =finalString+(char)(word.charAt(i)-32);
-			//System.out.print((char)(word.charAt(i)-32));
+			
 		}
 	}
 	System.out.println("Final String is "+finalString);
